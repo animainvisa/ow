@@ -1,0 +1,472 @@
+*
+{
+	margin: 0;
+	padding: 0;
+
+	border: 0;
+
+	font-size: 12px;
+}
+
+body
+{
+	color: #ffffff;
+	background-color: #174b6e;
+
+	margin-bottom: 50px;
+}
+
+#logo
+{ margin: 50px 0 0 75px; }
+
+#menu
+{
+	margin: 75px 0 0 20px;
+
+	float: left;
+
+	display: inline; /* ie6 */
+}
+
+#menu ul
+{ list-style-type: none; }
+
+#menu a
+{
+	color: #ffffff;
+	background-color: #004367;
+
+	margin: 2px 0;
+	padding: 5px 10px;
+
+	width: 150px;
+
+	text-decoration: none;
+
+	display: block;
+}
+
+#menu a:hover
+{ background-color: #0093dd; }
+
+#news,
+#guestbook,
+#e_calendar,
+#unavailability,
+#formation,
+#members,
+#newsletter,
+#reservations
+{
+	margin: 50px 0 0 225px;
+
+	width: 450px;
+}
+
+#news h3,
+#guestbook h3,
+#e_calendar h3,
+#unavailability h3,
+#formation h3,
+#members h3,
+#newsletter h3,
+#reservations h3
+{
+	font-size: 16px;
+
+	color: #74a7dc;
+
+	border-bottom: 1px solid #74a7dc;
+}
+
+#news .new,
+#guestbook .comment,
+#formation .frequest,
+#members .member,
+#newsletter .subscriber,
+#reservations .reservation
+{ padding-top: 20px; }
+
+#news .new h6,
+#guestbook .comment h6
+{
+	font-size: 14px;
+
+	padding-bottom: 5px;
+}
+
+#news .new img
+{
+	padding: 1px;
+	margin: 0 0 10px 10px;
+
+	border: 1px solid #74a7dc;
+
+	float: right;
+
+	display: inline; /* ie6 */
+}
+
+#news .new p,
+#guestbook .comment p,
+#formation .frequest p,
+#members .member p,
+#newsletter .subscriber p,
+#reservations .reservation p
+{ padding: 10px 0; }
+
+#news .new a,
+#guestbook .comment a,
+#formation .frequest a,
+#members .member a,
+#newsletter .subscriber a,
+#reservations .reservation a
+{
+	color: #74a7dc;
+
+	text-decoration: none;
+}
+
+#news .new a:hover,
+#guestbook .comment a:hover,
+#formation .frequest a:hover,
+#members .member a:hover,
+#newsletter .subscriber a:hover,
+#reservations .reservation a:hover
+{ text-decoration: underline; }
+
+#news .new .footer, 
+#guestbook .comment .footer
+{ text-align: right; }
+
+#news .new .footer
+{ clear: right; }
+
+#news hr,
+#guestbook hr,
+#formation hr,
+#members hr,
+#newsletter hr,
+#reservations hr
+{
+	margin: 0 10px;
+
+	border-top: 1px solid #174b6e; /* ie6 */
+	border-bottom: 1px solid #74a7dc;
+
+	clear: right;
+}
+
+#n_form
+{
+	margin: 35px 0 0 225px;
+
+	width: 450px;
+}
+
+#e_form
+{
+	margin: 35px 0 0 0;
+
+	width: 450px;
+}
+
+#l_form
+{
+	margin: 50px 0 0 80px;
+
+	width: 450px;
+}
+
+#m_form
+{
+	margin: 30px 0;
+
+	width: 450px;
+}
+
+#n_form label,
+#e_form label,
+#l_form label,
+#m_form label
+{ color: #ffffff; }
+
+#n_form input,
+#n_form textarea,
+#e_form input,
+#e_form textarea,
+#l_form input,
+#m_form input,
+#m_form textarea
+{
+	margin: 5px 0;
+
+	display: block;
+}
+
+#n_form input#f_title,
+#n_form input#f_image,
+#m_form input#f_subject,
+#m_form input#f_file,
+#e_form input#f_title, 
+#n_form textarea,
+#e_form textarea,
+#m_form textarea, 
+#l_form input
+{ border: 1px solid #a8cbdd; }
+
+#e_calendar #calendar,
+#unavailability #calendar
+{ margin: 25px 0 0 100px; }
+
+#e_calendar #calendar table *,
+#unavailability #calendar table *
+{
+	text-align: center;
+
+	font-size: 11px;
+}
+
+#e_calendar #calendar .navigator,
+#unavailability #calendar .navigator
+{
+	color: #ffffff;
+	background-color: #004367;
+
+	padding: 1px 3px;
+}
+
+#e_calendar #calendar .navigator table,
+#unavailability #calendar .navigator table
+{ width: 100%; }
+
+#e_calendar #calendar .navigator table *,
+#unavailability #calendar .navigator table *
+{
+	color: #ffffff;
+	background-color: #004367;
+
+	padding: 0;
+}
+
+#e_calendar #calendar .navigator .previous,
+#unavailability #calendar .navigator .previous
+{
+	text-align: left;
+
+	width: 12%;
+}
+
+#e_calendar #calendar .navigator .next,
+#unavailability #calendar .navigator .next
+{
+	text-align: right;
+
+	width: 12%;
+}
+
+#e_calendar #calendar .navigator a,
+#unavailability #calendar .navigator a
+{
+	color: #ffffff;
+
+	text-decoration: none;
+
+	font-size: 12px;
+}
+
+#e_calendar #calendar .navigator a:hover,
+#unavailability #calendar .navigator a:hover
+{ text-decoration: none; }
+
+#e_calendar #calendar .navigator h5,
+#unavailability #calendar .navigator h5
+{ font-weight: normal; }
+
+#e_calendar #calendar th,
+#unavailability #calendar th
+{
+	padding: 3px;
+
+	color: #ffffff;
+	background-color: #a8cbdd;
+
+	font-weight: normal;
+}
+
+#e_calendar #calendar td,
+#unavailability #calendar td
+{
+	padding: 3px;
+
+	background-color: #ffffff;
+}
+
+#e_calendar #selected
+{ background-color: #d3d3d3 !important; }
+
+#unavailability #calendar td span
+{ color: #e0e0e0; }
+
+#e_calendar #calendar td a,
+#unavailability #calendar td a
+{
+	color: #606c7d;
+	text-decoration: none;
+}
+
+#e_calendar #calendar td a:hover,
+#unavailability #calendar td a:hover
+{ text-decoration: overline; }
+
+#e_calendar #events
+{
+	margin: 20px 0 0 0;
+
+	width: 350px;
+}
+
+#e_calendar #events *
+{ font-size: 11px; }
+
+#e_calendar #e_header .previous
+{
+	float: left;
+
+	margin: 3px 5px;
+
+	display: inline; /* ie6 */
+}
+
+#e_calendar #e_header .next
+{
+	float: right;
+
+	margin: 3px 5px;
+
+	display: inline; /* ie6 */
+}
+
+#e_calendar #e_header a
+{
+	color: #ffffff;
+
+	text-decoration: none;
+
+	font-size: 12px;
+}
+
+#e_calendar #e_header h5
+{
+	padding: 3px;
+
+	font-weight: normal;
+
+	color: #ffffff;
+	background-color: #004367;
+
+	text-align: center;
+}
+
+#e_calendar #e_body
+{
+	margin: 2px 0;
+	padding: 0 10px;
+
+	color: #373e48;
+	background-color: #ffffff;
+}
+
+#e_calendar #e_body a
+{
+	color: #3771c8;
+	text-decoration: underline;
+}
+
+#e_calendar #e_body a:hover
+{ text-decoration: none; }
+
+#e_calendar #e_body hr
+{
+	border-top: 1px solid #ffffff; /* ie6 */
+	border-bottom: 1px solid #a8cbdd;
+}
+
+#e_calendar #e_body .event
+{ padding: 10px 0; }
+
+#e_calendar #e_body .event h6
+{ padding: 2px 0; }
+
+#e_calendar #e_body .event p
+{ padding: 5px 0; }
+
+#e_calendar #e_body .event .empty
+{ text-align: center; }
+
+#e_calendar #e_body .event .footer
+{
+	text-align: right;
+
+	padding-bottom: 0;
+}
+
+/**/
+
+#formation dt,
+#members dt,
+#newsletter dt,
+#reservations dt
+{
+	float: left;
+
+	font-weight: bold;
+}
+
+#formation dd,
+#members dd,
+#newsletter dd,
+#reservations dd
+{
+	text-indent: 10px;
+	text-align: right;
+
+	padding: 1px 0;
+}
+
+#formation dd p,
+#members dd p,
+#newsletter dd p,
+#reservations dd p
+{ padding: 0 !important; }
+
+#formation .frequest .footer,
+#members .member .footer,
+#newsletter .subscriber .footer,
+#reservations .reservation .footer
+{
+	padding: 10px;
+
+	text-align: center;
+}
+
+#newsletter .status
+{
+	text-align: right;
+
+	padding-top: 15px;
+}
+
+#languages
+{
+	float: right;
+
+	margin-right: 20px;
+}
+
+#languages ul
+{ list-style-type: none; }
+
+#languages li
+{ display: inline; }
+

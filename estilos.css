@@ -1,0 +1,56 @@
+@charset "iso-8859-1";
+/* CSS Document */
+
+body
+{ 
+	background-color: #174b6e;
+	background-image: url(imagens/estrutura/bg/bg_base_site.jpg);
+	background-repeat: no-repeat;
+	background-position: bottom;
+	margin: 0px;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	text-align: justify;
+	font-size: 11px;
+}
+
+.bg_mergulhador
+{
+	background-image: url(imagens/estrutura/bg/bg_mergulhador.jpg);
+	background-position: right top;
+	background-repeat: no-repeat;
+}
+
+.bg_branco
+{
+	background-color: #ffffff;
+	text-align: center;
+	vertical-align: middle;
+}
+
+.bg_azul
+{
+	background-color: #174b6e;
+	font-size: 8px;
+}
+
+.bg_preto
+{ background-color: #1f1a17; }
+
+.links
+{ color: #4baddf; }
+
+.txt_footer
+{
+	font-size: 9px;
+	color: #ffffff;
+}
+
+#conteudo
+{}
+
+#titulo, 
+div.titulo
+{
+	font-size: 17px;
+	color: #174b6e;
+}

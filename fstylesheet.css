@@ -1,0 +1,182 @@
+*
+{
+	margin: 0;
+	padding: 0;
+
+	border: 0;
+
+	text-transform: uppercase;
+	text-align: justify;
+
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+
+	color: #252624;
+	background-color: #e9e9e9;
+}
+
+.textf
+{
+	background-color: #ffffff !important;
+
+	border: 1px solid #cccccc;
+
+	text-transform: none;
+}
+
+.mwidth
+{ width: 100%; }
+
+.centre
+{ text-align: center; }
+
+.right
+{ text-align: right; }
+
+.padtop
+{ padding-top: 10px; }
+
+.padbottom
+{ padding-bottom: 10px; }
+
+.fix
+{ vertical-align: top; }
+
+#equipment
+{
+	border: 1px solid #e0e0e0;
+
+	padding: 10px;
+
+	background-color: #d3d3d3;
+}
+
+#equipment *
+{ background-color: #d3d3d3; }
+
+#equipment strong
+{ color: #ffffff; }
+
+.terms, 
+.terms *,
+.newsletter,
+.newsletter *
+{
+	font-size: 10px;
+
+	text-transform: none;
+}
+
+.terms a
+{
+	color: #252624;
+
+	text-decoration: underline;
+}
+
+.terms a:hover
+{ text-decoration: none; }
+
+.terms strong
+{ display: block; }
+
+.calendar
+{
+	display: none;
+
+	position: absolute;
+}
+
+.pointer
+{ cursor: pointer; }
+
+.calendar
+{ border: 1px solid #184b6f; }
+
+.calendar table
+{ background-color: #ffffff; }
+
+.calendar table *
+{
+	text-align: center;
+	text-transform: none;
+
+	font-size: 9px;
+}
+
+.calendar .navigator
+{
+	color: #ffffff;
+	background-color: #004367;
+
+	padding: 2px;
+}
+
+.calendar .navigator table
+{
+	border-collapse: collapse;
+
+	width: 100%;
+}
+
+.calendar .navigator table *
+{
+	color: #ffffff;
+	background-color: #004367;
+
+	padding: 0;
+}
+
+.calendar .navigator .previous
+{ text-align: left; }
+
+.calendar .navigator .next
+{ text-align: right; }
+
+.calendar .navigator a
+{
+	font-size: 12px;
+	font-weight: bold;
+
+	text-decoration: none;
+}
+
+.calendar .navigator a:hover
+{ text-decoration: none; }
+
+.calendar .navigator h5
+{
+	font-size: 11px;
+	font-weight: normal;
+}
+
+.calendar th
+{
+	padding: 3px;
+
+	color: #ffffff;
+	background-color: #0098ff;
+
+	font-weight: normal;
+}
+
+.calendar td
+{
+	padding: 3px;
+
+	background-color: #eaeaea;
+}
+
+.calendar td span
+{ color: #ffffff; }
+
+.calendar td a
+{
+	color: #606c7d;
+
+	text-decoration: none;
+}
+
+.calendar td a:hover
+{ text-decoration: overline; }
+
